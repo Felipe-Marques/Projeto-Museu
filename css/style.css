@@ -38,9 +38,13 @@ header.navbar {
 
 /* ********* INICIO - Estrutura da lista de Navegação *********** */
 
+nav {
+    height: 15px;
+    align-items: center;
+}
+
 nav ul {
     list-style: none;
-    padding: 0;
     margin: auto;
     float: right;
 }
@@ -56,8 +60,13 @@ nav ul li a:link {
     text-transform: uppercase;
 }
 
+nav ul:hover {
+    text-decoration: none;
+}
+
 nav ul li a:hover {
     border-bottom: 1px solid #535858;
+    color: #227115;
 }
 
 a:link,
@@ -65,10 +74,6 @@ a:active,
 a:visited {
     color: #af670a;
     text-decoration: none;
-}
-
-a:hover {
-    color: #227115;
 }
 
 
